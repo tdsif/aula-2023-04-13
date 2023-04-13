@@ -1,0 +1,13 @@
+# @host = locahost:9090/api/v1
+
+### Todos os Alunos
+
+GET http://localhost:9090/api/v1/alunos
+
+### Aluno existente 1
+
+GET http://localhost:9090/api/v1/alunos/2
+
+### Aluno inexistente 123456 => 204 NO CONTENT
+
+GET http://localhost:9090/api/v1/alunos/123456
